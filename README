@@ -1,16 +1,18 @@
 bigfix
 
-This is the bigfix module.
+This is the bigfix module. It is designed to install and configure bigfix agents and relays. Unfortunately at this time due to the tight control that IBM keeps on DB2 distribution I'm unable to offer a server module although I plan to look into that further and hope to find some way of making it happen.
 
 License
 -------
 
+Apache License, Version 2.0
 
 Contact
 -------
 
+tms@eecs.berkeley.edu
 
 Support
 -------
 
-Please log tickets and issues at our [Projects site](http://projects.example.com)
+If something doesn't work, let me know.
