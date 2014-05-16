@@ -1,4 +1,4 @@
-name    'eei-bigfix'
+name    'tscopp-bigfix'
 version '0.1.4'
 source 'UNKNOWN'
 author 'tscopp'
