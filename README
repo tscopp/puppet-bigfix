@@ -1,6 +1,6 @@
 bigfix
 
-This is the bigfix module. It is designed to install and configure bigfix agents and relays. Unfortunately at this time due to the tight control that IBM keeps on DB2 distribution I'm unable to offer a server module although I plan to look into that further and hope to find some way of making it happen.
+This is the bigfix module. It is designed to install and configure bigfix agents and relays. Unfortunately at this time due to the tight control that IBM keeps on DB2 distribution I'm unable to offer a server module. I do plan to look into it further in the future and hope to find some way of making it happen.
 
 License
 -------
