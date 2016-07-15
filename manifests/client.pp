@@ -39,6 +39,7 @@ class bigfix::client(
   $service_ensure     = running,
   $package_ensure     = installed,
   $nocheckcertificate = true,        # Tells wget::fetch to enforce certificate check or not.
+  $wget_timeout       = 0,           # Number of seconds to wait before giving up on wget.
 ){
 
   include bigfix::params
@@ -59,6 +60,7 @@ class bigfix::client(
     destination        => "${bes_dir}/actionsite.afxm",
     verbose            => true,
     nocheckcertificate => $nocheckcertificate,
+    timeout            => $wget_timeout,
     require            => File[$bes_dir],
     before             => Service['besclient'],
   }
