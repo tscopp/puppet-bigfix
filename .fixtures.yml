@@ -1,0 +1,5 @@
+fixtures:
+  repositories:
+    wget: https://github.com/voxpupuli/puppet-wget.git
+  symlinks:
+    test: "#{source_dir}"
