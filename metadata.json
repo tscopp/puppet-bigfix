@@ -12,8 +12,8 @@
       "name": "puppetlabs-stdlib",
       "version_requirement": ">= 1.0.0",
 
-      "name": "maestrodev-wget",
-      "version_requirement": ">= 1.7.4"
+      "name": "puppet-wget",
+      "version_requirement": ">= 2.0.0"
     }
   ],
   "data_provider": null
